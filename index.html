@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+<style  background color="black">
+    
+    /* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #000000;
+  
+
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+background-color: rgb(255, 255, 255);
+  
+  
+}
+ h2 {
+  font-family: dosis;
+  margin: 0;
+  padding: 0;
+  color: #000000;;
+
+ }
+h3 {
+  margin: 0;
+  color: #ffffff;
+  background-color: var(#fff700);
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #222;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #d4b400;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Hero Section */
+.hero {
+  background: url('hero-image.jpg') no-repeat center center/cover;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+}
+
+.hero-content p {
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+/* About Section */
+.about {
+  padding: 50px 20px;
+  background: #ff7b00c6;
+  color: #000000;
+  text-align: center;
+}
+
+/* Services Section */
+.services {
+  padding: 50px 20px;
+  background: #ffc800;
+  color: #fff;
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service {
+background-image: nashaad.jpeg;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Portfolio Section */
+.portfolio {
+  padding: 50px 20px;
+  background: #f4f4f4;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.portfolio-item {
+  width: 30%;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Contact Section */
+.contact {
+  padding: 50px 20px;
+  background: #4dff00;
+  text-align: center;
+}
+
+.contact form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact button {
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #ffffff;
+  color: #ffffff;
+}
+</style>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Crafting beautiful designs and powerful solutions</p>
+      <a href="#portfolio" class="btn">View My Work</a>
+    </div>
+  </header>
+  
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p><B>My name is Nashaad Mahamoud Nour, and I am a passionate and creative individual with a strong dedication to design and development. I am currently a university student, balancing my academic studies with a thriving freelance career.
+
+      From a young age, I have always been fascinated by the power of creativity and technology. This led me to pursue my love for design and web development, where I specialize in creating visually stunning and functional websites. Over time, I’ve developed expertise in crafting unique graphic designs and user-friendly interfaces that leave a lasting impression.
+      
+      As a freelancer, I’ve had the privilege of working with various clients, delivering projects that meet their specific needs and exceed their expectations. Whether it’s designing a website, creating a brand identity, or solving complex design challenges, I always strive for excellence in everything I do.
+      
+      Beyond work, I am constantly learning and exploring new trends in the design and tech world to stay ahead of the curve. My goal is to inspire and innovate through my work, building solutions that connect ideas and technology seamlessly.</B>.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>What I Do</h2>
+    <div class="service-container">
+      <div class="service">
+        <h3>Web Design</h3>
+        <p>Modern and responsive designs tailored to your needs.</p>
+      </div>
+      <div class="service">
+        <h3>Development</h3>
+        <p>Efficient, clean code for optimal functionality.</p>
+      </div>
+      <div class="service">
+        <h3>Branding</h3>
+        <p>Creating visual identities that stand out.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-container">
+      <div class="portfolio-item">
+        <img src="habsame-01.jpg" alt="Project 1">
+        <h3>Project 1</h3>
+      </div>
+      <div class="portfolio-item">
+        <img src="poster for mucaric-01.jpg" alt="Project 2">
+        <h3>Project 2</h3>
+      </div>
+      <div class="portfolio-item">
+        <img src="CMK DOLLAR-01.png" alt="Project 3">
+        <h3>Project 3</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Nashaad Mahamoud Nour" required>
+      <input type="email" placeholder="nashaad2342@gmil.com" required>
+     
+   <button class="my button">
+ SEND ME
+   </button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2024 My Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
